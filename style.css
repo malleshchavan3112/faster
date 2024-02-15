@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style: none;
+}
+
+/* sec-nav start here */
+.sec-nav{
+    background-color: rgb(33, 29, 36);
+    display: flex;
+    color: white;
+    height: 25px;
+    
+}
+
+.nav-ul1{
+    display: flex;
+    width: 50%;
+gap: 9px;
+margin-left: 40px;
+align-items: center;
+font-size: 12px;
+
+
+    
+}
+.nav-ul1 li a{
+    color: white;
+}
+
+
+
+.nav-ul2{
+    width: 50%;
+    justify-content: right;
+    margin-right: 30px;
+    display: flex;
+    font-size: 12px;
+align-items: center;
+
+    gap: 10px;
+}
+.fa-solid, .fa-brands{
+    color: white;
+}
+.nav-s2{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.s2-ul1{
+    display: flex;
+    color: #FF4800;
+    font-size: 20px;
+align-items: center;
+justify-content: flex-start;
+
+    gap: 10px;
+
+
+}
+
+.s2-ul2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+    justify-content: right;
+
+
+
+}
+.s2-ul2 li a{
+    color: black;
+}
+#home{
+    color: white;
+    background-color: #FF4800;
+    padding: 19px;
+
+
+}
+
+
+.s2-ul3{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.fa-truck{
+    color: #FF4800;
+
+    font-size: 25px;
+    margin-left: 40px;
+
+}
+
+.button-1{
+    background-color: #FF4800;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+.fa-bars{
+    display: none;
+}
+/* .m-sec1  start here*/
+
+.m-sec1{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(img/header.jpg);
+    background-color: black;
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    opacity: 90%;
+    text-align: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.m-sec1 p{
+    color: #FF4800;
+    font-size: 35px;
+    font-weight: 700;
+}
+.m-sec1 h2{
+    font-size: 60px;
+}
+#form-track{
+    padding: 10px;
+    width: 300px;
+  }
+ #form-button{
+    padding: 10px;
+    border: none;
+    background-color: #FF4800;
+    color: white;
+  }
+  /* m-sec2 start here */
+  .m-sec2{
+    padding: 80px;
+    display: flex;
+  }
+  .msec2-div1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .h3-big{
+    background-color: #FF4800;
+  }
+  .msec2-ul1{
+    background-image: url(img/about.jpg);
+    width: 400px;
+    height: 300px;
+    background-position: bottom;
+    background-size: cover;
+    
+  }
+  .m-sec3{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+  }
+  .fa-circle-play{
+    color: #FF4800;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 50px;
+  }
+  .msec3-div1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .play{
+    font-size: 18px;
+  }
+  h4{
+    color: #FF4800;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .h3{
+    font-size: 30px;
+  }
+  .trust{
+    font-size: 35px;
+    width: 500px;
+    font-weight: 900;
+
+  }
+  .p-all{
+    font-size: 14px;
+    color: grey;
+  }
+
+@media screen and (max-width: 769px) {
+    .nav-ul1, .nav-ul2{
+        font-size: 12px;
+        gap: 5px;
+
+        
+    }
+
+    .nav-s2{
+        height: 50px;
+        
+    }
+    .fa-bars{
+        display: block;
+        color: black;
+        align-self: center;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .s2-ul2{
+        display: none;
+    }
+    
+    .s2-ul1{
+        font-size: 18px;
+        gap: 10px;
+    
+    
+    }
+   
+    .s2-ul3{
+        margin-right: 30px;
+    }
+    .fa-truck{
+        font-size: 23px;
+    
+    }
+    
+    .button-1{
+        padding: 8px;
+        font-size: 12px;
+    }
+/* m-sec1 start here */
+    .m-sec1{
+        width: 768px;
+        height: 250px;
+        gap: 15px;
+    }
+    .m-sec1 p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .m-sec1 h2{
+        font-size: 45px;
+    }
+    #form-track{
+        padding: 5px;
+        width: 200px;
+      }
+     #form-button{
+        padding: 5px;
+        border: none;
+        background-color: #FF4800;
+        color: white;
+      }
+
+      /* m-sec2 start here */
+  .m-sec2{
+    padding: 40px;
+  }
+  .msec2-ul1{
+    width: 250px;
+    height: 200px;
+
+  }
+  .play{
+    font-size: 15px;
+  }
+  h4{
+    color: #FF4800;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .h3{
+    font-size: 20px;
+  }
+  .trust{
+    font-size: 25px;
+    width: 300px;
+    font-weight: 700;
+
+  }
+  .p-all{
+    font-size: 12px;
+    color: grey;
+  }
+  .m-sec3{
+    padding: 15px;
+    gap: 10px;
+  }
+  .fa-circle-play{
+    font-size: 35px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 426px) {
+    .nav-ul1, .nav-ul2{
+        font-size: 9px;
+        margin-left: 20px;
+
+        
+    }
+
+
+    .vvv{
+        height: 40px;
+        
+    }
+    .fa-bars{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    
+    .s2-ul1{
+        font-size: 16px;
+        gap: 10px;
+    
+    
+    }
+   
+    .s2-ul3{
+        margin-right: 30px;
+    }
+    
+    .button-1{
+        padding: 7px;
+        font-size: 11px;
+    }
+
+    /* m-sec1 start here */
+    .m-sec1{
+        width: 425px;
+        height: 140px;
+        gap: 8px;
+    }
+    .m-sec1 p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .m-sec1 h2{
+        font-size: 30px;
+    }
+    #form-track{
+        padding: 5px;
+        width: 150px;
+      }
+     #form-button{
+        padding: 5px;
+        border: none;
+        background-color: #FF4800;
+        color: white;
+      }
+
+  .msec2-ul1{
+    width: 350px;
+    height: 250px;
+  }
+
+  .m-sec2{
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+  .m-sec3{
+    padding: 0px;
+  }
+
+
+}
