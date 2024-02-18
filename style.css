@@ -163,6 +163,7 @@ justify-content: flex-start;
   .m-sec2{
     padding: 80px;
     display: flex;
+    width: 90%;
   }
   .msec2-div1{
     display: flex;
@@ -188,6 +189,7 @@ justify-content: flex-start;
     flex-direction: column;
     justify-content: center;
     padding: 25px;
+    width: 70%;
   }
   .fa-circle-play{
     color: var(--orange);
@@ -233,6 +235,7 @@ justify-content: flex-start;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 55%;
   }
   .msec4-div2{
     display: flex;
@@ -254,7 +257,7 @@ justify-content: flex-start;
   .form-1{
     background-color: var(--orange);
     width: 38%;
-    margin-right: 70px;
+    /* margin-right: 70px; */
 
 
   }
@@ -413,6 +416,7 @@ hr{
       /* m-sec2 start here */
   .m-sec2{
     padding: 40px;
+    width: 90%;
   }
   .msec2-ul1{
     width: 250px;
