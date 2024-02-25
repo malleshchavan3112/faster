@@ -56,7 +56,7 @@ align-items: center;
 
     gap: 10px;
 }
-.fa-solid, .fa-brands{
+.fa-envelope,.fa-phone, .fa-brands{
     color: white;
 }
 .nav-s2{
@@ -400,6 +400,198 @@ hr{
   width: 150px;
   border: none;
 }
+
+/* five start here  */
+
+.five {
+  text-align: center;
+  padding: 70px;
+}
+.five h3{
+  width: auto;
+}
+.five-flex {
+  justify-content: space-around;
+  margin-top: 50px;
+  /* gap: 2rem; */
+  display: flex;
+
+}
+
+.five-flex sup,
+sub {
+  color: gray;
+}
+.five-flex ul {
+  margin: 20px;
+}
+.five-flex li {
+  margin: 10px;
+}
+.five-flex p {
+  margin: 20px;
+
+  font-size: 2rem;
+  font-weight: 600;
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.five-flex button {
+  padding: 7px;
+  width: 7rem;
+  color: white;
+  border: none;
+  background-color: var(--orange);
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.five-flex button:hover {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+
+.five-first,
+.five-second,
+.five-third {
+  background-color: gainsboro;
+}
+
+/* six start here  */
+
+.six {
+  text-align: center;
+  padding: 0px 70px;
+}
+.six h3{
+  width: auto;
+}
+.six-flex {
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  display: flex;
+}
+.photo1 {
+  background: url(img/team-1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  background-position: center;
+}
+.photo2 {
+  background: url(img/team-2.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  background-position: center;
+}
+.photo3 {
+  background: url(img/team-3.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  background-position: center;
+}
+.photo4 {
+  background: url(img/team-4.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  background-position: center;
+}
+.six .text {
+  background-color: gainsboro;
+  text-align: center;
+  border-bottom: 5px solid var(--orange);
+}
+.text .name {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.desig {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+/* seven start here */
+.seven {
+  text-align: center;
+  padding: 70px;
+}
+.seven-flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 20px;
+  /* text-align: center; */
+}
+.seven img {
+  border-radius: 50%;
+  margin: 20px;
+}
+.seven h3{
+  margin: auto;
+}
+.bottom {
+  text-align: center;
+  color: gray;
+}
+.top{
+  display: flex;
+  align-items: center;
+}
+.seven-one {
+  background-color: gainsboro;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  filter: opacity(0.5);
+}
+.seven-two {
+  background-color: gainsboro;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+}
+.seven-three {
+  background-color: gainsboro;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  filter: opacity(0.5);
+}
+.seven .name1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.seven .gray {
+  color: gray;
+  font-weight: 500;
+}
+.fa-circle {
+  margin-top: 20px;
+  color: gainsboro;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+.org {
+  color: var(--orange);
+}
+.icon1,.icon2,.icon3{
+  margin-top: -100px;
+  margin-left: 70px;
+  font-size: 44px;
+  color: var(--orange);
+}
+
+
 @media screen and (max-width: 769px) {
     .nav-ul1, .nav-ul2{
         font-size: 12px;
@@ -593,6 +785,112 @@ hr{
   padding: 8px;
 }
 
+/* five start here  */
+.five {
+  padding: 40px;
+}
+.five-flex {
+  gap: 2rem;
+}
+.five-flex sup,
+  sub {
+    color: gray;
+    font-size: 1rem;
+  }
+  .five-flex ul {
+    margin: 20px;
+  }
+  .five-flex li {
+    margin: 10px;
+  }
+  .five-flex p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px;
+
+  }
+
+  .five-flex button {
+    padding: 5px;
+  }
+
+  /* six start here */
+  .six {
+    margin-top: 0px;
+    padding: 0px 40px;
+    font-size: 0.8rem;
+
+  }
+  .six-flex{
+    justify-content: space-around;
+  }
+  
+  .photo1 {
+    background: url(img/team-1.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    background-position: center;
+  }
+  .photo2 {
+    background: url(img/team-2.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    background-position: center;
+  }
+  .photo3 {
+    background: url(img/team-3.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    background-position: center;
+  }
+  .photo4 {
+    background: url(img/team-4.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    background-position: center;
+  }
+  /* seven start here */
+  .seven{
+    padding: 40px;
+  }
+  .seven-one {
+    background-color: gainsboro;
+    width: 210px;
+    height: 250px;
+    padding: 8px;
+  }
+  .seven-two {
+    background-color: gainsboro;
+    width: 210px;
+    height: 250px;
+    padding: 8px;
+  }
+  .seven-three {
+    background-color: gainsboro;
+    width: 210px;
+    height: 250px;
+    padding: 8px;
+  }
+  .seven .name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .bottom {
+    font-size: 0.9rem;
+  }
+  .icon1,.icon2,.icon3{
+    margin-top: -80px;
+    margin-left: 20px;
+    font-size: 33px;
+  }
+
+  .gray {
+    font-size: 10px;
+  }
 
 
 
@@ -782,7 +1080,66 @@ padding-top: 20px;
   margin-bottom: 5px;
   font-size: 14px;
 }
+/* five start here */
 
+.five-flex {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.five-flex sup,
+sub {
+  font-size: 0.8rem;
+}
+.five-flex p,
+ul {
+  margin: 8px;
+}
+.five-flex li {
+  margin: 8px;
+}
+.five-flex p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* six start here */
+
+.six {
+  font-size: 0.6rem;
+}
+.photo1 {
+  background: url(img/team-1.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 150px;
+  background-position: center;
+}
+.photo2 {
+  background: url(img/team-2.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 150px;
+  background-position: center;
+}
+.photo3 {
+  background: url(img/team-3.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 150px;
+  background-position: center;
+}
+.photo4 {
+  background: url(img/team-4.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 150px;
+  background-position: center;
+}
+/* seven start here */
+.seven-flex{
+  flex-wrap: wrap;
+}
 
 
 
